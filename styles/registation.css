@@ -5,9 +5,9 @@
     justify-content: center;
     border: 3px solid #ee5151;
     padding: 20px;
-   
+   margin: 200px 600px;
     max-width: 400px;
-   POSITION: relative;
+  
 }
 .registration-form label {
     font-weight: bold;
@@ -16,4 +16,21 @@
 .Form-group {
    display: flex;
     margin-bottom: 15px;
+}
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    padding: 10px; 
+    justify-content: center;
+}
+.buttons button {
+    background-color: #ee5151;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.buttons button:hover {
+    background-color: #f57851;
 }
