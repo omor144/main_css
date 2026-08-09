@@ -1,5 +1,5 @@
 body {
-    background-image: url('../image/nature.jpg');
+    background-image: url('..image/nature.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 100%
