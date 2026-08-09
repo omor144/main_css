@@ -1,0 +1,19 @@
+.registration-form form {
+    display: flex;
+    BACKGROUND-COLOR: #b0adad;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid #ee5151;
+    padding: 20px;
+   
+    max-width: 400px;
+   POSITION: relative;
+}
+.registration-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.Form-group {
+   display: flex;
+    margin-bottom: 15px;
+}

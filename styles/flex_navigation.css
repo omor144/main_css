@@ -1,20 +1,28 @@
+body {
+    background-image: url('../image/nature.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%
+}
+
 .flex-nav ul {
     display: flex;
-  
+  justify-content: end;
     list-style: none;
+    background-color: #313130;
   
    
 }
 .flex-nav ul li {
     margin: 10px;
-    padding: 0 8px;
+    padding: 0 15px;
 }
 .flex-nav ul li a {
     text-decoration: none;
-    color: #131313;
+    color: #f7f9fa;
     
-    padding: 0px 12px;
+    padding: 0px 30px;
 }
 .flex-nav ul li a:hover {
-    background-color: #daf1a5;
+    background-color: #f57851;
 }
