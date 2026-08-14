@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-columns:100px auto;
+    gap: 10px;
+    padding: 10px;
+   
+}
+.box {
+    border: 2px solid #e53838;
+       
+}
+.calender{
+    display: grid;
+    grid-template-columns:repeat(7,1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 5px;
+    
+}
+.day, .day_name{
+    background-color: #d49696;
+    display: flex;
+  height: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.day_name{
+    background-color: #e53838;
+    color: white;
+   
+}

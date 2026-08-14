@@ -6,11 +6,14 @@ body {
 }
 
 .flex-nav ul {
-    display: flex;
+    /* display: flex;
   justify-content: end;
     list-style: none;
-    background-color: #313130;
-  
+    background-color: #313130; */
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  list-style: none;
+  background-color: #313130;
    
 }
 .flex-nav ul li {
