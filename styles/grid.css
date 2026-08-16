@@ -4,6 +4,7 @@
     gap: 10px;
     padding: 10px;
    
+   
 }
 .box {
     border: 2px solid #e53838;
@@ -14,6 +15,9 @@
     grid-template-columns:repeat(7,1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 5px;
+    /* position  practice use sticky posaition*/
+    position: sticky;
+   top: 105px;
     
 }
 .day, .day_name{
@@ -23,10 +27,30 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+     
 
 }
 .day_name{
     background-color: #e53838;
     color: white;
+    
    
 }
+/* .position{
+    display: grid;
+  
+    gap: 10px;
+} */
+
+.picture{
+    border: 2px dotted #e53838;
+    height: 100px;
+    width: 200px; 
+}
+/* .picture2{
+  background-color: #e53838;
+    height: 100px;
+    width: 200px; 
+    position: sticky;
+   top: 105px;
+} */
